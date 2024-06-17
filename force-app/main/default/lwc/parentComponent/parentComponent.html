@@ -1,0 +1,16 @@
+<!--
+  @description       : 
+  @author            : VIKASH MUNDARI
+  @group             : 
+  @last modified on  : 06-17-2024
+  @last modified by  : VIKASH MUNDARI
+-->
+  
+<template>
+    <div>
+        <h1>Parent Component</h1>
+        <!-- Include the child component and listen for the custom event -->
+        <c-child-component onmessageevent={handleMessageEvent}></c-child-component>
+        <p>Message from Child: {childMessage}</p>
+    </div>
+</template>
